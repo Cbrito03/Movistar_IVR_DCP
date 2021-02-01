@@ -1,0 +1,700 @@
+DEBUG 11:18:30,224 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:18:30,302 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 11:18:30,474 CampanasLogger                      call                      - Error Interno ID[9989745175][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 11:18:30,474 CampanasLogger                      call                      - Error Interno ID[9989745175][GetRegionesComunas] jArg: {}
+ERROR 11:18:30,474 CampanasLogger                      call                      - Error Interno ID[9989745175][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 11:18:30,489 CampanasLogger                      call                      - Error Interno ID[8819917208][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 11:18:30,489 CampanasLogger                      call                      - Error Interno ID[8819917208][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 11:18:30,489 CampanasLogger                      call                      - Error Interno ID[8819917208][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 11:22:52,053 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:22:52,053 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 11:22:52,069 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 11:22:52,084 CampanasLogger                      call                      - Error Interno ID[9850003736][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 11:22:52,084 CampanasLogger                      call                      - Error Interno ID[9850003736][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 11:22:52,084 CampanasLogger                      call                      - Error Interno ID[9850003736][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+ERROR 11:22:52,131 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+ERROR 11:22:52,163 CampanasLogger                      call                      - Error Interno ID[1189489639][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 11:22:52,194 CampanasLogger                      call                      - Error Interno ID[1189489639][GetRegionesComunas] jArg: {}
+ERROR 11:22:52,194 CampanasLogger                      call                      - Error Interno ID[1189489639][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 11:30:18,264 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:30:18,280 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 11:30:18,296 CampanasLogger                      call                      - Error Interno ID[2917514786][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 11:30:18,296 CampanasLogger                      call                      - Error Interno ID[2917514786][GetRegionesComunas] jArg: {}
+ERROR 11:30:18,296 CampanasLogger                      call                      - Error Interno ID[2917514786][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 11:30:18,311 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 11:52:52,327 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:52:52,327 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 11:52:52,343 CampanasLogger                      call                      - Error Interno ID[1780369241][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 11:52:52,343 CampanasLogger                      call                      - Error Interno ID[1780369241][GetRegionesComunas] jArg: {}
+ERROR 11:52:52,343 CampanasLogger                      call                      - Error Interno ID[1780369241][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 11:52:52,358 CampanasLogger                      call                      - Error Interno ID[1081802953][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 11:52:52,401 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 11:53:26,077 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 11:53:26,108 CampanasLogger                      call                      - Error Interno ID[7266410143][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 11:53:26,108 CampanasLogger                      call                      - Error Interno ID[7266410143][GetRegionesComunas] jArg: {}
+ERROR 11:53:26,108 CampanasLogger                      call                      - Error Interno ID[7266410143][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 11:53:26,858 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:53:26,858 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 12:19:47,561 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 12:19:47,576 CampanasLogger                      call                      - Error Interno ID[7069411085][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:19:47,576 CampanasLogger                      call                      - Error Interno ID[7069411085][GetRegionesComunas] jArg: {}
+ERROR 12:19:47,576 CampanasLogger                      call                      - Error Interno ID[7069411085][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_3.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 12:19:49,635 CampanasLogger                      GetWrapUpCodes            - Init
+ERROR 12:19:49,693 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 12:25:43,428 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 12:25:43,428 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 12:25:43,459 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 12:33:40,606 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+ERROR 12:33:40,684 CampanasLogger                      call                      - Error Interno ID[2621046657][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:33:40,684 CampanasLogger                      call                      - Error Interno ID[2621046657][GetRegionesComunas] jArg: {}
+ERROR 12:33:40,684 CampanasLogger                      call                      - Error Interno ID[2621046657][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 12:33:40,700 CampanasLogger                      call                      - Error Interno ID[9812664360][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:33:40,700 CampanasLogger                      call                      - Error Interno ID[9812664360][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 12:33:40,700 CampanasLogger                      call                      - Error Interno ID[9812664360][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 12:34:07,575 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 12:34:07,591 CampanasLogger                      call                      - Error Interno ID[2778686113][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:34:07,591 CampanasLogger                      call                      - Error Interno ID[2778686113][GetRegionesComunas] jArg: {}
+ERROR 12:34:07,591 CampanasLogger                      call                      - Error Interno ID[2778686113][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 12:34:08,372 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 12:34:08,388 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 12:34:08,388 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 12:34:29,174 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 12:34:29,174 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 12:34:29,236 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 12:34:29,252 CampanasLogger                      call                      - Error Interno ID[3362448342][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:34:29,252 CampanasLogger                      call                      - Error Interno ID[3362448342][GetRegionesComunas] jArg: {}
+ERROR 12:34:29,252 CampanasLogger                      call                      - Error Interno ID[3362448342][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 12:40:32,683 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 12:40:32,699 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 12:40:32,715 CampanasLogger                      call                      - Error Interno ID[7442745656][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:40:32,715 CampanasLogger                      call                      - Error Interno ID[7442745656][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 12:40:32,715 CampanasLogger                      call                      - Error Interno ID[7442745656][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+ERROR 12:40:32,715 CampanasLogger                      call                      - Error Interno ID[4045819275][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:40:32,715 CampanasLogger                      call                      - Error Interno ID[4045819275][GetRegionesComunas] jArg: {}
+ERROR 12:40:32,715 CampanasLogger                      call                      - Error Interno ID[4045819275][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 12:43:22,502 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 12:43:22,502 CampanasLogger                      call                      - Error Interno ID[2805068001][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:43:22,502 CampanasLogger                      call                      - Error Interno ID[2805068001][GetRegionesComunas] jArg: {}
+ERROR 12:43:22,502 CampanasLogger                      call                      - Error Interno ID[2805068001][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 12:43:24,663 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 12:43:24,682 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 12:43:24,686 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 12:48:54,820 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 12:48:54,835 CampanasLogger                      call                      - Error Interno ID[6823129032][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:48:54,835 CampanasLogger                      call                      - Error Interno ID[6823129032][GetRegionesComunas] jArg: {}
+ERROR 12:48:54,835 CampanasLogger                      call                      - Error Interno ID[6823129032][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 12:48:56,925 CampanasLogger                      GetWrapUpCodes            - Init
+ERROR 12:48:56,956 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 12:54:41,228 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 12:54:41,244 CampanasLogger                      call                      - Error Interno ID[6453562822][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:54:41,244 CampanasLogger                      call                      - Error Interno ID[6453562822][GetRegionesComunas] jArg: {}
+ERROR 12:54:41,244 CampanasLogger                      call                      - Error Interno ID[6453562822][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 12:54:43,342 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 12:54:43,342 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 12:54:43,361 CampanasLogger                      call                      - Error Interno ID[5340945647][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 12:54:43,361 CampanasLogger                      call                      - Error Interno ID[5340945647][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 12:54:43,361 CampanasLogger                      call                      - Error Interno ID[5340945647][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+ERROR 12:54:43,388 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 13:24:27,250 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 13:24:27,281 CampanasLogger                      call                      - Error Interno ID[7778651964][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 13:24:27,281 CampanasLogger                      call                      - Error Interno ID[7778651964][GetRegionesComunas] jArg: {}
+ERROR 13:24:27,281 CampanasLogger                      call                      - Error Interno ID[7778651964][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 13:24:29,476 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 13:24:29,476 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 13:26:11,680 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 13:26:11,680 CampanasLogger                      call                      - Error Interno ID[0081612695][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 13:26:11,680 CampanasLogger                      call                      - Error Interno ID[0081612695][GetRegionesComunas] jArg: {}
+ERROR 13:26:11,680 CampanasLogger                      call                      - Error Interno ID[0081612695][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 13:26:13,781 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 13:42:03,957 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 13:42:03,972 CampanasLogger                      call                      - Error Interno ID[5228980707][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 13:42:03,972 CampanasLogger                      call                      - Error Interno ID[5228980707][GetRegionesComunas] jArg: {}
+ERROR 13:42:03,972 CampanasLogger                      call                      - Error Interno ID[5228980707][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 13:42:06,121 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 13:51:06,740 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 13:51:06,880 CampanasLogger                      call                      - Error Interno ID[1703322871][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 13:51:06,880 CampanasLogger                      call                      - Error Interno ID[1703322871][GetRegionesComunas] jArg: {}
+ERROR 13:51:06,880 CampanasLogger                      call                      - Error Interno ID[1703322871][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 13:51:08,388 CampanasLogger                      GetWrapUpCodes            - Init
+ERROR 13:51:08,419 CampanasLogger                      call                      - Error Interno ID[9452352451][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 13:51:08,419 CampanasLogger                      call                      - Error Interno ID[9452352451][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 13:51:08,419 CampanasLogger                      call                      - Error Interno ID[9452352451][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 16:25:39,382 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 16:25:39,398 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 16:25:39,414 CampanasLogger                      call                      - Error Interno ID[2334752859][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:25:39,414 CampanasLogger                      call                      - Error Interno ID[2334752859][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 16:25:39,414 CampanasLogger                      call                      - Error Interno ID[2334752859][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+ERROR 16:25:39,429 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 16:26:55,237 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 16:26:55,252 CampanasLogger                      call                      - Error Interno ID[7526892006][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:26:55,252 CampanasLogger                      call                      - Error Interno ID[7526892006][GetRegionesComunas] jArg: {}
+ERROR 16:26:55,252 CampanasLogger                      call                      - Error Interno ID[7526892006][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 16:26:57,405 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 16:26:57,428 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 16:26:57,428 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 16:29:17,765 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 16:29:17,890 CampanasLogger                      call                      - Error Interno ID[2042604253][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:29:17,890 CampanasLogger                      call                      - Error Interno ID[2042604253][GetRegionesComunas] jArg: {}
+ERROR 16:29:17,890 CampanasLogger                      call                      - Error Interno ID[2042604253][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 16:29:19,425 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 16:29:35,288 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 16:29:35,288 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 16:29:35,366 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 16:29:35,382 CampanasLogger                      call                      - Error Interno ID[1669685310][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:29:35,382 CampanasLogger                      call                      - Error Interno ID[1669685310][GetRegionesComunas] jArg: {}
+ERROR 16:29:35,382 CampanasLogger                      call                      - Error Interno ID[1669685310][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 16:29:59,213 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 16:29:59,228 CampanasLogger                      call                      - Error Interno ID[1326054523][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:29:59,228 CampanasLogger                      call                      - Error Interno ID[1326054523][GetRegionesComunas] jArg: {}
+ERROR 16:29:59,228 CampanasLogger                      call                      - Error Interno ID[1326054523][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 16:30:01,424 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 16:30:01,482 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 16:30:01,482 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 16:30:01,482 CampanasLogger                      call                      - Error Interno ID[3473156024][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:30:01,498 CampanasLogger                      call                      - Error Interno ID[3473156024][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 16:30:01,498 CampanasLogger                      call                      - Error Interno ID[3473156024][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V12_5_5.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 16:31:04,600 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 16:31:04,694 CampanasLogger                      call                      - Error Interno ID[4047041898][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:31:04,694 CampanasLogger                      call                      - Error Interno ID[4047041898][GetRegionesComunas] jArg: {}
+ERROR 16:31:04,694 CampanasLogger                      call                      - Error Interno ID[4047041898][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 16:31:12,780 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 16:31:12,796 CampanasLogger                      call                      - Error Interno ID[3546788077][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:31:12,796 CampanasLogger                      call                      - Error Interno ID[3546788077][GetRegionesComunas] jArg: {}
+ERROR 16:31:12,796 CampanasLogger                      call                      - Error Interno ID[3546788077][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 16:31:14,983 CampanasLogger                      GetWrapUpCodes            - Init
+ERROR 16:31:14,999 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 16:32:08,384 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 16:32:08,415 CampanasLogger                      call                      - Error Interno ID[2153373229][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:32:08,415 CampanasLogger                      call                      - Error Interno ID[2153373229][GetRegionesComunas] jArg: {}
+ERROR 16:32:08,415 CampanasLogger                      call                      - Error Interno ID[2153373229][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 16:32:10,646 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 16:32:10,646 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 16:32:10,646 CampanasLogger                      call                      - Error Interno ID[8856996702][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:32:10,646 CampanasLogger                      call                      - Error Interno ID[8856996702][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 16:32:10,646 CampanasLogger                      call                      - Error Interno ID[8856996702][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 16:32:55,602 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 16:32:55,618 CampanasLogger                      call                      - Error Interno ID[5112726829][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:32:55,618 CampanasLogger                      call                      - Error Interno ID[5112726829][GetRegionesComunas] jArg: {}
+ERROR 16:32:55,618 CampanasLogger                      call                      - Error Interno ID[5112726829][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 16:32:57,423 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 16:43:38,228 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 16:43:38,306 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 16:43:38,321 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 16:43:38,321 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 16:43:38,353 CampanasLogger                      call                      - Error Interno ID[5963526570][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:43:38,353 CampanasLogger                      call                      - Error Interno ID[5963526570][GetRegionesComunas] jArg: {}
+ERROR 16:43:38,353 CampanasLogger                      call                      - Error Interno ID[5963526570][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 16:43:38,368 CampanasLogger                      call                      - Error Interno ID[5484552775][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 16:43:38,368 CampanasLogger                      call                      - Error Interno ID[5484552775][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 16:43:38,368 CampanasLogger                      call                      - Error Interno ID[5484552775][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636

@@ -1,0 +1,22 @@
+[
+		{
+			"pais": "CO",
+			"callCenterSite": "DI",
+			"tieneConvergencia": "Y"
+		},
+		{
+			"pais": "CL",
+			"callCenterSite": "KO",
+			"tieneConvergencia": "Y"
+		},
+		{
+			"pais": "CL",
+			"callCenterSite": "AT",
+			"tieneConvergencia": "N"
+		},
+		{
+			"pais": "CL",
+			"callCenterSite": "OV",
+			"tieneConvergencia": "Y"
+		}
+]	

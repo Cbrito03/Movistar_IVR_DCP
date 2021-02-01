@@ -1,0 +1,222 @@
+DEBUG 13:09:06,267 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 13:09:06,267 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 13:09:06,735 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 13:09:10,001 CampanasLogger                      call                      - Error Interno ID[1554174132][GetRegionesComunas] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 13:09:10,001 CampanasLogger                      call                      - Error Interno ID[9220092539][GetWrapUpCodes] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 13:09:10,001 CampanasLogger                      call                      - Error Interno ID[9220092539][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 13:09:10,001 CampanasLogger                      call                      - Error Interno ID[9220092539][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+ERROR 13:09:10,001 CampanasLogger                      call                      - Error Interno ID[1554174132][GetRegionesComunas] jArg: {}
+ERROR 13:09:10,032 CampanasLogger                      call                      - Error Interno ID[1554174132][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+DEBUG 13:10:59,391 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 13:10:59,469 CampanasLogger                      call                      - Error Interno ID[4650662642][GetRegionesComunas] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 13:10:59,469 CampanasLogger                      call                      - Error Interno ID[4650662642][GetRegionesComunas] jArg: {}
+ERROR 13:10:59,469 CampanasLogger                      call                      - Error Interno ID[4650662642][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+DEBUG 13:11:01,735 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 13:11:01,735 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 13:11:01,797 CampanasLogger                      call                      - Error Interno ID[2882914704][GetWrapUpCodes] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 13:11:01,797 CampanasLogger                      call                      - Error Interno ID[2882914704][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 13:11:01,797 CampanasLogger                      call                      - Error Interno ID[2882914704][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+DEBUG 15:31:49,427 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 15:31:49,442 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 15:31:49,567 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 15:31:50,083 CampanasLogger                      call                      - Error Interno ID[1077791399][GetWrapUpCodes] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 15:31:50,083 CampanasLogger                      call                      - Error Interno ID[1077791399][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 15:31:50,083 CampanasLogger                      call                      - Error Interno ID[1077791399][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+ERROR 15:31:50,083 CampanasLogger                      call                      - Error Interno ID[9787341463][GetRegionesComunas] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 15:31:50,098 CampanasLogger                      call                      - Error Interno ID[9787341463][GetRegionesComunas] jArg: {}
+ERROR 15:31:50,098 CampanasLogger                      call                      - Error Interno ID[9787341463][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+DEBUG 15:41:51,787 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 15:41:53,667 CampanasLogger                      call                      - Error Interno ID[8797281290][GetRegionesComunas] Message: ORA-1017: nombre de usuario/contraseña no válidos; conexión denegada
+ERROR 15:41:53,667 CampanasLogger                      call                      - Error Interno ID[8797281290][GetRegionesComunas] jArg: {}
+ERROR 15:41:53,668 CampanasLogger                      call                      - Error Interno ID[8797281290][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1017: nombre de usuario/contraseña no válidos; conexión denegada    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+DEBUG 15:41:55,551 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 15:41:55,554 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 15:41:56,912 CampanasLogger                      call                      - Error Interno ID[5902587036][GetWrapUpCodes] Message: ORA-1017: nombre de usuario/contraseña no válidos; conexión denegada
+ERROR 15:41:56,912 CampanasLogger                      call                      - Error Interno ID[5902587036][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 15:41:56,912 CampanasLogger                      call                      - Error Interno ID[5902587036][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1017: nombre de usuario/contraseña no válidos; conexión denegada    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+DEBUG 15:47:23,218 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 15:47:23,457 CampanasLogger                      call                      - Error Interno ID[4818771531][GetRegionesComunas] Message: ORA-12514: TNS:el listener no conoce actualmente el servicio solicitado en el descriptor de conexión
+ERROR 15:47:23,457 CampanasLogger                      call                      - Error Interno ID[4818771531][GetRegionesComunas] jArg: {}
+ERROR 15:47:23,458 CampanasLogger                      call                      - Error Interno ID[4818771531][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-12514: TNS:el listener no conoce actualmente el servicio solicitado en el descriptor de conexión    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+DEBUG 15:47:26,162 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 15:47:26,164 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 15:47:26,244 CampanasLogger                      call                      - Error Interno ID[0446876350][GetWrapUpCodes] Message: ORA-12514: TNS:el listener no conoce actualmente el servicio solicitado en el descriptor de conexión
+ERROR 15:47:26,244 CampanasLogger                      call                      - Error Interno ID[0446876350][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 15:47:26,244 CampanasLogger                      call                      - Error Interno ID[0446876350][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-12514: TNS:el listener no conoce actualmente el servicio solicitado en el descriptor de conexión    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+DEBUG 15:56:30,510 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 15:56:30,573 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 15:56:35,401 CampanasLogger                      call                      - Error Interno ID[2914542815][GetRegionesComunas] Message: ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen
+ERROR 15:56:35,401 CampanasLogger                      call                      - Error Interno ID[2914542815][GetRegionesComunas] jArg: {}
+ERROR 15:56:35,401 CampanasLogger                      call                      - Error Interno ID[2914542815][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+ERROR 15:56:39,932 CampanasLogger                      call                      - Error Interno ID[4037319101][GetWrapUpCodes] Message: ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen
+ERROR 15:56:39,932 CampanasLogger                      call                      - Error Interno ID[4037319101][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 15:56:39,932 CampanasLogger                      call                      - Error Interno ID[4037319101][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+DEBUG 19:22:21,562 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:22:21,889 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 19:22:22,952 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 19:22:22,952 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 19:24:54,897 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 19:24:57,995 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:24:58,039 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 19:24:59,865 CampanasLogger                      call                      - Error Interno ID[6216556461][GetRegionesComunas] Message: ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen
+ERROR 19:24:59,867 CampanasLogger                      call                      - Error Interno ID[6216556461][GetRegionesComunas] jArg: {}
+ERROR 19:24:59,868 CampanasLogger                      call                      - Error Interno ID[6216556461][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+ERROR 19:25:04,380 CampanasLogger                      call                      - Error Interno ID[5518523507][GetWrapUpCodes] Message: ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen
+ERROR 19:25:04,380 CampanasLogger                      call                      - Error Interno ID[5518523507][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 19:25:04,380 CampanasLogger                      call                      - Error Interno ID[5518523507][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+DEBUG 19:30:52,108 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 19:30:53,436 CampanasLogger                      call                      - Error Interno ID[2633128910][GetRegionesComunas] Message: ORA-1017: nombre de usuario/contraseña no válidos; conexión denegada
+ERROR 19:30:53,436 CampanasLogger                      call                      - Error Interno ID[2633128910][GetRegionesComunas] jArg: {}
+ERROR 19:30:53,436 CampanasLogger                      call                      - Error Interno ID[2633128910][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1017: nombre de usuario/contraseña no válidos; conexión denegada    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+DEBUG 19:30:55,138 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:30:55,141 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 19:30:56,213 CampanasLogger                      call                      - Error Interno ID[7585193631][GetWrapUpCodes] Message: ORA-1017: nombre de usuario/contraseña no válidos; conexión denegada
+ERROR 19:30:56,214 CampanasLogger                      call                      - Error Interno ID[7585193631][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 19:30:56,214 CampanasLogger                      call                      - Error Interno ID[7585193631][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1017: nombre de usuario/contraseña no válidos; conexión denegada    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+DEBUG 19:33:42,095 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 19:33:42,517 CampanasLogger                      call                      - Error Interno ID[9021498452][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 19:33:42,518 CampanasLogger                      call                      - Error Interno ID[9021498452][GetRegionesComunas] jArg: {}
+ERROR 19:33:42,518 CampanasLogger                      call                      - Error Interno ID[9021498452][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+DEBUG 19:33:45,167 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:33:45,171 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 19:33:45,206 CampanasLogger                      call                      - Error Interno ID[0811316725][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 19:33:45,206 CampanasLogger                      call                      - Error Interno ID[0811316725][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 19:33:45,206 CampanasLogger                      call                      - Error Interno ID[0811316725][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+DEBUG 19:35:28,731 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:35:28,803 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 19:35:33,326 CampanasLogger                      call                      - Error Interno ID[7941047167][GetRegionesComunas] Message: ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen
+ERROR 19:35:33,328 CampanasLogger                      call                      - Error Interno ID[7941047167][GetRegionesComunas] jArg: {}
+ERROR 19:35:33,328 CampanasLogger                      call                      - Error Interno ID[7941047167][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+ERROR 19:35:37,856 CampanasLogger                      call                      - Error Interno ID[7795504342][GetWrapUpCodes] Message: ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen
+ERROR 19:35:37,857 CampanasLogger                      call                      - Error Interno ID[7795504342][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 19:35:37,857 CampanasLogger                      call                      - Error Interno ID[7795504342][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-12545: La conexión ha fallado porque el host destino o el objeto no existen    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)

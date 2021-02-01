@@ -1,0 +1,178 @@
+<div data-layout="rows(100px, 100%)">
+    <div data-layout="rows(25px, 100%)">
+        <div class="ui-widget-header ui-corner-top" data-layout="rows(100%)">
+            <div data-layout-margins="5,5,0,0">Agente</div>
+        </div>
+        <div class="ui-widget-content ui-corner-bottom" data-layout="rows(5px, 20px, 20px, 100%)" data-layout-margins="0,0,0,5">
+            <div></div>
+            <div id="lblNombreAgente" data-layout-margins="5,0,0,0">[Nombre del Agente]</div>
+            <div data-layout="cols(60px, 100%)">
+                <div data-layout-margins="5,0,0,0">Estado:</div>
+                <div id="lblEstadoAgente">Disponible</div>
+            </div>
+            <div data-layout="cols(60px, 100%)">
+                <div data-layout-margins="5,0,0,0">Tiempo:</div>
+                <div id="lblTiempoEstado">HH:MM:SS</div>
+            </div>
+        </div>
+    </div>
+    <div data-layout="rows(100%)">
+        <div id="botonera">
+            <h3>Estado</h3>
+            <div id="panelEstadoContainer">
+                <div id="panelEstado" data-layout="rows(25px, 30px, 100%)">
+                    <div data-layout-margins="0,0,0,2">
+                        <select id="edEstadoBreak" class="input-field">
+                            <option value="Seleccione">Seleccione estado</option>
+                            <option value="1">Break</option>
+                            <option value="2">Baño</option>
+                            <option value="3">Administración</option>
+                            <option value="4">Capacitación</option>
+                            <option value="5">Colación</option>
+                            <option value="6">Fin Turno</option>
+                        </select>
+                    </div>
+                    <div data-layout="cols(10px, 32px, 100%, 32px, 12px)" data-layout-margins="0,2,0,0">
+                        <div></div>
+                        <img id="cmdSolicitarDescanso" src="img/icons/break.png" title="Solicitar Descanso" class="boton-barra" style="width:28px;height:28px" />
+                        <div></div>
+                        <img id="cmdTerminarDescanso" src="img/icons/back.png" title="Volver a la Campaña" class="boton-barra" style="width:28px;height:28px" />
+                        <div></div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+            <h3>Llamada</h3>
+            <div id="panelLlamadaContainer">
+                <div id="panelLlamada" data-layout="rows(70px, 
+                     10px, 20px, 3px, 25px, 25px,
+                     10px, 20px, 3px, 25px,
+                     10px, 20px, 5px, 25px, 25px, 10%)">
+                    <!-- Botonera-->
+                    <div data-layout="cols(90px, 100%, 90px)">
+                        <div data-layout="rows(32px, 3px, 32px)">
+                            <div data-layout="cols(32px, 50%, 32px, 50%)" data-layout-margins="0,4,0,0">
+                                <img id="cmdCancelarLlamada" src="img/icons/cancel.png" title="Cancelar" class="boton-barra" style="width:30px;height:30px" />
+                                <div></div>
+                                <img id="cmdTransferir" src="img/icons/transference.png" title="Transferencia" class="boton-barra" style="width:30px;height:30px" />
+                                <div></div>
+                            </div>
+                            <div></div>
+                            <div data-layout="cols(32px, 50%, 32px, 50%)" data-layout-margins="0,4,0,0">
+                                <img id="cmdEspera" src="img/icons/hold.png" title="Espera" class="boton-barra" style="width:30px;height:30px" />
+                                <div></div>
+                                <img id="cmdMudo" src="img/icons/muteOff3.png" title="Mudo" class="boton-barra" style="width:30px;height:30px" />
+                                <div></div>
+                            </div>
+                        </div>
+                        <div></div>
+                        <div data-layout="cols(50%, 48px, 50%)" data-layout-margins="0,10,0,10">
+                            <div></div>
+                            <img id="cmdRediscar" src="img/icons/redial.png" title="Llamar" class="boton-barra" style="width:45px;height:45px" />
+                            <div></div>
+                        </div>
+                    </div>
+                    <!-- Agenda -->
+                    <div></div>
+                    <div class="ui-widget-header ui-corner-top" data-layout="rows(100%)">
+                        <div data-layout-margins="5,5,0,0">Agendar</div>
+                    </div>
+                    <div></div>
+                    <div data-layout="cols(50px, 100%)">
+                        <div class="form-label">Fecha:</div>
+                        <div data-layout="cols(100%)" data-layout-margins="0,0,0,5">
+                            <div>
+                                <input id="edFechaAgendar" type="text" style="width:70px" class="ui-widget input" readonly />
+                            </div>
+                        </div>
+                    </div>
+                    <div data-layout="cols(50px, 40px, 14px, 40px, 100%)" data-layout-margins="0,0,0,0">
+                        <div class="form-label" data-layout-margins="0,4,0,0">Hora:</div>
+                        <div data-layout-margins="0,0,0,2">
+                            <select id="edAgendarHora" class="input-field">
+                                <option value="--">--</option>
+                                <option value="1">09</option>
+                                <option value="2">10</option>
+                                <option value="3">11</option>
+                                <option value="4">12</option>
+                                <option value="5">13</option>
+                                <option value="6">14</option>
+                                <option value="7">15</option>
+                                <option value="8">16</option>
+                                <option value="9">17</option>
+                                <option value="10">18</option>
+                                <option value="11">19</option>
+                                <option value="12">20</option>
+                                <option value="13">21</option>
+                                <option value="15">22</option>
+                         
+                            </select>
+                        </div>
+                        <div class="form-label" data-layout-margins="4,4,0,0">:</div>
+                        <div data-layout-margins="0,0,0,2">
+                            <select id="edAgendarMinutos" class="input-field">
+                                <option value="--">--</option>
+                                <option value="1">00</option>
+                                <option value="2">05</option>
+                                <option value="3">10</option>
+                                <option value="4">15</option>
+                                <option value="5">20</option>
+                                <option value="6">25</option>
+                                <option value="7">30</option>
+                                <option value="8">35</option>
+                                <option value="9">40</option>
+                                <option value="10">45</option>
+                                <option value="11">50</option>
+                                <option value="12">55</option>
+                            </select>
+                        </div>
+                        <div></div>
+                    </div>                    
+                    <!-- Transferencia -->
+                    <div></div>
+                    <div class="ui-widget-header ui-corner-top" data-layout="rows(100%)">
+                        <div data-layout-margins="5,5,0,0">Transferencia</div>
+                    </div>
+                    <div></div>
+                    <div data-layout-margins="0,0,0,2">
+                        <select id="edSpeedDial" class="input-field">
+                        </select>
+                    </div>
+                    <!-- Finalización -->
+                    <div></div>
+                    <div class="ui-widget-header ui-corner-top" data-layout="rows(100%)">
+                        <div data-layout-margins="5,5,0,0">Estado Finalización</div>
+                    </div>
+                    <div></div>
+                    <div data-layout-margins="0,0,0,2">
+                        <select id="edEstadoFinalizacion" class="input-field">
+                        </select>
+                    </div>
+                    <div data-layout-margins="0,0,0,2">
+                        <select id="edSubEstadoFinalizacion" class="input-field"> 
+                        </select>
+                    </div>
+                    <div></div>
+                </div>
+            </div>  
+            <h3>Observaciones</h3>
+            <div id="panelObservacionesContainer">
+                <div id="panelObservaciones" data-layout="rows(100%)">
+                    <textarea id="edObservaciones" data-layout-margins="0,0,5,5" maxlength="600" />
+                </div>
+            </div>
+            <h3 id="tituloDebugger">Simulación</h3>
+            <div id="panelDebuggerContainer">
+                <div id="panelDebugger" data-layout="rows(25px, 100%)">
+                    <div data-layout="cols(100%, 20px)" data-layout-margins="0,0,5,6">
+                        <div data-layout-margins="0,0,7,0">
+                            <select id="edNombreEvento" class="input-field"></select>
+                        </div>
+                        <img id="cmdDispararEvento" src="img/icons/ok.png" title="Disparar Evento" class="boton-barra" />
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

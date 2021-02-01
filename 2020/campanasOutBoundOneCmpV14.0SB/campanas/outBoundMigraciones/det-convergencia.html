@@ -1,0 +1,84 @@
+<div data-layout="rows(100%)">
+     <div data-layout="rows(20px,5px,25px,5px,400px,10px,200px)">
+         <div class="titulo-seccion" >Convergencia</div>
+        <div></div>
+        <div data-layout="cols(300px, 20px,100px,20px,100px)" class="ui-widget-content ui-corner-all">
+               <div class="form-label">¿Desea Realizar una convergencia?</div>
+              <div><input id="edConvergenciaF" type="checkbox" /></div>
+              <div class="form-label">FIJO</div>      
+              <div><input id="edConvergenciaM" type="checkbox" /></div>
+              <div class="form-label">MOVIL</div>                       
+       </div>
+       <div></div>
+       <div data-layout="rows(10px,30px,30px,30px,10px,30px,30px,30px,30px,30px)" class="ui-widget-content ui-corner-all">
+           <div></div>
+           <div data-layout="cols(10px,100px,100px)">
+            <div></div>
+            <div class="form-label">Nombre</div>
+            <div><input id="ConvNombreCliente" type="text" style="width:482px" class="ui-widget input" maxlength="100" /></div>
+           </div><div data-layout="cols(10px,100px,100px, 100%)">
+            <div></div>
+            <div class="form-label">Rut</div>
+            <div><input id="ConvRutCliente" type="text" style="width:90px" class="ui-widget input rut" maxlength="9" /></div>
+            <div class="form-label" style="font-size:smaller">Sin puntos ni guión</div>
+           </div>
+           <div data-layout="cols(10px,100px,200px)">
+            <div></div>
+            <div class="form-label">Teléfono</div>
+            <div><input id="ConvFonoContacto1" type="text" style="width:200px" class="ui-widget input telefono" maxlength="9" /></div>
+           </div>
+           <div></div>
+           <div class="titulo-seccion" data-layout-margin="5">Dirección Particular</div>
+           <div data-layout="cols(10px,100px,200px,20px,60px,200px)">
+               <div></div>
+               <div class="form-label">Calle</div>
+               <div><input id="ConvCalleResp" type="text" style="width:200px" class="ui-widget input respData" maxlength="40" /></div>
+               <div></div>
+               <div class="form-label">N°</div>
+               <div><input id="ConvNumeroResp" type="text" style="width:200px" class="ui-widget input respData" maxlength="6" /></div>
+           </div>
+
+           <div data-layout="cols(10px,100px,200px,10px,20px,100px,200px,10px)">
+               <div></div>
+               <div class="form-label">Región</div>
+               <div><input id="convRegionDesc" type="text" style="width:200px" class="ui-widget input" maxlength="20" /></div>
+               <div><input id="convRegion" type="hidden" /></div>
+               <div></div>
+               <div class="form-label">Comuna</div>
+               <div><input id="convComunaDesc" type="text" style="width:200px" class="ui-widget input" maxlength="40" /></div>
+               <div><input id="convComuna" type="hidden" /></div>
+           </div>
+
+
+           <!-- Prueba --> 
+
+           <div class="titulo-seccion" data-layout-margin="5">Observaciones</div>
+           <div data-layout="cols(10px,100px,480px)">
+               <div></div>
+               <div data-layout="rows(30px,30px,10px)" >
+                   <div> Quedan </div>
+                   <div data-layout="cols(20px,30px)">
+                       <div></div>
+                       <div id="caja" class="titulo-seccion" text-align: center;>200</div>
+                   </div>
+                   <div> Caracteres</div>
+               </div>
+               <div>
+
+                   <textarea id="ConvObservaciones"  data-layout-margins="0,0,5,5" style="position: absolute; top: 0px; left: 0px; width: 480px; height: 150px;" maxlength="200"></textarea>
+
+               </div>
+               
+           </div>
+
+       </div>
+       <div></div>
+       <div data-layout="cols(50px,300px,50px)">
+              <div></div>
+              <div></div>
+              <div></div>
+       </div>
+    </div>
+
+
+</div>

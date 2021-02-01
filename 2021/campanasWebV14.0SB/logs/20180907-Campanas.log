@@ -1,0 +1,37 @@
+DEBUG 14:05:15,157 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 14:05:15,220 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 14:05:15,220 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 14:05:15,501 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 14:05:15,516 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 14:06:34,767 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 14:06:34,833 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 14:06:36,806 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 14:06:36,837 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 14:07:36,339 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 14:07:36,339 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 14:08:06,148 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 14:08:06,160 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 14:13:23,369 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 14:13:23,385 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 14:13:25,510 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 14:13:25,510 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 14:13:25,525 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 14:16:32,219 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 14:16:32,235 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 14:16:34,290 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 14:16:34,290 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 14:16:34,305 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66

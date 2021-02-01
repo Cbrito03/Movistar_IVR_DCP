@@ -1,0 +1,18 @@
+﻿[
+		{
+			"nombre": "IVR Empresas",
+			"numero": "798",
+			"tipo": "ciega"
+		},
+		{
+			"nombre": "IVR Masivo",
+			"numero": "600103",
+			"tipo": "ciega"
+			
+		},
+		{
+			"nombre": "IVR Pago",
+			"numero": "600188",
+			"tipo": "ciega"
+		}
+]

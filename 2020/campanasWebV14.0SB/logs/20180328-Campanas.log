@@ -1,0 +1,4 @@
+DEBUG 15:03:28,727 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 15:03:28,804 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 15:03:29,048 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 15:03:29,055 CampanasLogger                      GetRegionesComunas        - Finish

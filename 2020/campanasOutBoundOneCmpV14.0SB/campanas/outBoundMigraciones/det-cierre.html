@@ -1,0 +1,393 @@
+<div data-layout="rows(120px, 40px, 100%)">
+    <div data-layout="rows(20px, 35px, 35px, 20px, 20px)">
+        <div>1. los accesos (que mantiene bloqueados) se puede desbloquear en cualquier momento y que ello tiene cobro informado en www.movistar.cl</div>
+        <div>2. La llamada está siendo grabada y puede solicitar la grabación o retracto de la venta identificándose como titular llamando al 600 600 3000, en nuestras sucursales o en www.movistar.cl</div>
+        <div>3. Para información de cobertura de los servicios, postventa de carácter técnico y/o comercial, relacionado con el servicio contratado puede dirigirse a una de nuestras Sucursales, llamar al 6006003000 o ingresando a nuestra página www.movistar.cl</div>
+        <div>4. Indicar claramente las características comerciales del producto o servicio.</div>
+        <div>5. Informar medio de confirmación de la contratación (SMS, Carta u otro).</div>
+    </div>
+    <div data-layout="rows(5px, 100%, 5px)">
+        <div></div>
+        <div data-layout="cols(200px:center, 30px, 100%)">
+            <div class="titulo-seccion">Generar Ficha de Cierre</div>
+            <div id="cmdGenerarFicha">
+                <a href='#'><img src='img/icons/cierre.png' target='_blank' style='width:30px;height:30px' /></a>
+            </div>
+            <div></div>
+        </div>
+        <div></div>
+    </div>
+    <div id="tabsCierre" data-layout-margins="0,0,5,10">
+        <ul>
+            <li><a href="#tabFicha">Ficha Cierre</a></li>
+            <li id="tabFichaRespaldoHide"><a href="#tabFichaRespaldo">Datos Cliente Respaldo</a></li>
+            <li><a href="#tabProductos">Productos Vendidos</a></li>
+            <li><a href="#tabDespacho">Despacho/Instalación</a></li>
+            <li><a href="#tabPreguntas">Preguntas</a></li>
+        </ul>
+        <div id="tabFicha">
+            <div id="detFicha" data-layout="rows(100%)">
+                <div data-scroller-min-height="250" data-scroller-min-width="900">
+                    <div data-layout="rows(5px, 100%)">
+                        <div></div>
+                        <div data-layout="rows(26px, 26px, 26px, 26px, 26px,100px,32px, 26px, 26px, 26px)" data-layout-margins="0,0,5,5">
+                            <div data-layout="cols(120px:top, 100%)">
+                                <div class="form-label-bold">Nombre y Apellidos</div>
+                                <div><input id="edNombreCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">RUT</div>
+                                    <div><input id="edRutCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold"># Serie</div>
+                                    <div><input id="edSerieCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div></div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fecha Nacimiento</div>
+                                    <div><input id="edFechaNacimientoCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Email</div>
+                                    <div><input id="edEmailCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Notificar</div>
+                                    <div><input id="edNotificarCli" type="checkbox" disabled /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fono 1</div>
+                                    <div><input id="edFono1Cli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fono 2</div>
+                                    <div><input id="edFono2Cli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fono 3</div>
+                                    <div><input id="edFono3Cli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Ciclo Facturación</div>
+                                    <div><input id="edCicloCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Tipo Cliente</div>
+                                    <div>
+                                        <select id="edTipoCli" style="width:80%">
+                                            <option value="Seleccione">Seleccione</option>
+                                            <option value="Vigente">Vigente</option>
+                                            <option value="Nuevo">Nuevo</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Tipo Venta</div>
+                                    <div>
+                                        <select id="edTipoVentaCli" style="width:80%">
+                                            <option value="Seleccione">Seleccione</option>
+                                            <option value="Hogar">Hogar</option>
+                                            <option value="Negocio">Negocio</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div data-layout="rows(26px,100%)">
+                                <div data-layout="cols(100%)" data-layout-margins="5,10,10,0">
+                                    <div class="titulo-seccion">Vía de Certificación</div>
+                                </div>
+                                <div data-layout="cols(100%)">
+                                    <div data-layout="rows(26px,100%)" data-layout-margins="0,10,10,0">
+                                        <div>
+                                            <input type="radio" id="edSiglo" name="confirmacion" /> SIGLO
+                                        </div>
+                                        <div data-layout="cols(33%,33%,33%)">
+                                            <div data-layout="cols(33%,65%)">
+                                                <div data-layout-margins="5,0,0,0"><input type="radio" id="edIVRSiglo" disabled name="siglo" />IVR</div>
+                                                <div><input type="text" style="width:95%" class="ui-widget input" disabled id="edIDivrsiglo"  maxlength="50" /></div>
+                                            </div>
+                                            <div data-layout="cols(33%,65%)">
+                                                <div data-layout-margins="5,0,0,0"><input type="radio" id="edEjecutivoSiglo" disabled name="siglo" />Ejecutivo</div>
+                                                <div><input type="text" style="width:95%" class="ui-widget input" disabled id="edIDejecutivosiglo" maxlength="50" /></div>
+                                            </div>
+                                            <div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div data-layout="cols(100%)" data-layout-margins="5,10,10,0">
+                                <div class="titulo-seccion">Dirección Particular</div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Calle</div>
+                                    <div><input id="edCalleCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Entre calles</div>
+                                    <div><input id="edEntreCalleCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">y</div>
+                                    <div><input id="edYCalleCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Número</div>
+                                    <div><input id="edNumeroCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Piso</div>
+                                    <div><input id="edPisoCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Depto</div>
+                                    <div><input id="edDeptoCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(50%, 50%)">
+                                <div data-layout="cols(120px, 100%, 5px)">
+                                    <div class="form-label-bold">Región</div>
+                                    <div><input id="edRegionDescCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+									<div><input id="edRegionCli" type="hidden" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%, 5px)">
+                                    <div class="form-label-bold">Comuna</div>
+                                    <div><input id="edComunaDescCli" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                    <div><input id="edComunaCli" type="hidden" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tabFichaRespaldo">
+            <div id="detFichaResp" data-layout="rows(100%)">
+                <div data-scroller-min-height="250" data-scroller-min-width="900">
+                    <div data-layout="rows(5px, 100%)">
+                        <div></div>
+                        <div data-layout="rows(26px, 26px, 26px, 26px, 32px, 26px, 26px, 26px)" data-layout-margins="0,0,5,5">
+                            <div data-layout="cols(120px:top, 100%)">
+                                <div class="form-label-bold">Nombre y Apellidos</div>
+                                <div><input id="edNombreResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">RUT</div>
+                                    <div><input id="edRutResp" type="text" style="width:90px" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold"># Serie</div>
+                                    <div><input id="edSerieResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div></div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fecha Nacimiento</div>
+                                    <div><input id="edFechaNacResp" type="text" style="width:70px" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Email</div>
+                                    <div><input id="edEmailResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Notificar</div>
+                                    <div><input id="edNotificarResp" type="checkbox" disabled /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fono 1</div>
+                                    <div><input id="edfono1Resp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fono 2</div>
+                                    <div><input id="edFono2CliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fono 3</div>
+                                    <div><input id="edFono3CliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(100%)" data-layout-margins="5,10,10,0">
+                                <div class="titulo-seccion">Dirección Particular</div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Calle</div>
+                                    <div><input id="edCalleCliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Entre calles</div>
+                                    <div><input id="edEntreCalleCliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">y</div>
+                                    <div><input id="edYCalleCliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Número</div>
+                                    <div><input id="edNumeroCliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Piso</div>
+                                    <div><input id="edPisoCliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Depto</div>
+                                    <div><input id="edDeptoCliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(50%, 50%)">
+                                <div data-layout="cols(120px, 100%, 5px)">
+                                    <div class="form-label-bold">Región</div>
+                                    <div><input id="edRegionDescCliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+									<div><input id="edRegionCliResp" type="hidden" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%, 5px)">
+                                    <div class="form-label-bold">Comuna</div>
+                                    <div><input id="edComunaDescCliResp" type="text" style="width:95%" class="ui-widget input" disabled /></div>
+                                    <div><input id="edComunaCliResp" type="hidden" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tabProductos">
+            <div id="detProductos" data-layout="rows(100%, 60px)">
+                <div data-layout="cols(50%, 5px, 50%)">
+                    <div data-layout="rows(5px, 100%, 5px)">
+                        <div></div>
+                        <div data-layout="cols(100%, 5px)">
+                            <div id="listaResumenOfertasContainer" class="contenedor-lista">
+                                <table id="listaResumenOfertas" class="grid"></table>
+                            </div>
+                            <div></div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div></div>
+                    <div data-layout="rows(5px, 100%, 5px)">
+                        <div></div>
+                        <div data-layout="cols(100%, 5px)">
+                            <div id="listaResumenProductosContainer" class="contenedor-lista">
+                                <table id="listaResumenProductos" class="grid"></table>
+                            </div>
+                            <div></div>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+                <div data-layout="rows(3px, 50px, 3px)">
+                    <div></div>
+                    <div data-layout="cols(140px, 100%)">
+                        <div class="form-label">Observaciones</div>
+                        <div>
+                            <textarea id="edObsVenta" data-layout-margins="0,0,5,5" maxlength="200" style="height:50px;width:95%" disabled />
+                        </div>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div id="tabDespacho">
+            <div id="detDespacho" data-layout="rows(100%)">
+                <div data-scroller-min-height="250" data-scroller-min-width="900">
+                    <div data-layout="rows(10px, 100%)">
+                        <div></div>
+                        <div data-layout="rows(26px, 40px, 26px, 26px, 26px)" data-layout-margins="0,0,5,5">
+                            <div data-layout="cols(120px:top, 100%)">
+                                <div class="form-label-bold">Nombre Persona Contactar</div>
+                                <div><input id="edNombreContacto" type="text" style="width:95%" class="ui-widget input respData" maxlength="100" /></div>
+                            </div>
+                            <div data-layout="cols(100%)" data-layout-margins="5,10,10,0">
+                                <div class="titulo-seccion">Dirección</div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Calle</div>
+                                    <div><input id="edCalleCont" type="text" style="width:95%" class="ui-widget input respData" maxlength="40" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Entre calles</div>
+                                    <div><input id="edEntreCalleCont" type="text" style="width:95%" class="ui-widget input respData" maxlength="40" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">y</div>
+                                    <div><input id="edYCalleCont" type="text" style="width:95%" class="ui-widget input respData" maxlength="40"/></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Número</div>
+                                    <div><input id="edNumeroCont" type="text" style="width:95%" class="ui-widget input respData" maxlength="6" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Piso</div>
+                                    <div><input id="edPisoCont" type="text" style="width:95%" class="ui-widget input respData" maxlength="2" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Depto</div>
+                                    <div><input id="edDeptoCont" type="text" style="width:95%" class="ui-widget input respData" maxlength="6"/></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%, 5px)">
+                                    <div class="form-label-bold">Región</div>
+                                    <div><input id="edRegionDescContCli" type="text" style="width:95%" class="ui-widget input" /></div>
+                                    <div><input id="edRegionCont" type="hidden" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%, 5px)">
+                                    <div class="form-label-bold">Comuna</div>
+                                    <div><input id="edComunaDescContCli" type="text" style="width:95%" class="ui-widget input" /></div>
+                                    <div><input id="edComunaCont" type="hidden" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div></div>
+                                    <div><textarea id="edReferenciaCont" rows="3" type="text" style="width:95%;height:100%" class="ui-widget input" maxlength="200" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="tabPreguntas">
+            <div id="detPreguntas" data-layout="rows(100%)">
+                <div data-scroller-min-height="250" data-scroller-min-width="900">
+                    <div data-layout="rows(10px, 100%)">
+                        <div></div>
+                        <div data-layout="rows(26px, 52px, 20px, 26px, 52px, 100%)" data-layout-margins="0,0,5,5">
+                            <div class="form-label-bold" id="lbPregunta1">Pregunta 1</div>
+                            <div><textarea id="edRespuesta1" rows="3" type="text" style="width:95%;height:100%" class="ui-widget input" maxlength="200" /></div>
+                            <div></div>
+                            <div class="form-label-bold" id="lbPregunta2">Pregunta 2</div>
+                            <div><textarea id="edRespuesta2" rows="3" type="text" style="width:95%;height:100%" class="ui-widget input" maxlength="200" /></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

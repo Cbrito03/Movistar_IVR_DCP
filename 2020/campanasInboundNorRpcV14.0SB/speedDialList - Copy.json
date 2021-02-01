@@ -1,0 +1,17 @@
+[
+		{
+			"nombre": "IVR Empresas",
+			"numero": "132",
+			"tipo": "ciega"
+		},
+		{
+			"nombre": "IVR Masivo",
+			"numero": "600103",
+			"tipo": "ciega"
+		},
+		{
+			"nombre": "IVR Confirmación Venta",
+			"numero": "5061",
+			"tipo": "ivr"
+		}
+]

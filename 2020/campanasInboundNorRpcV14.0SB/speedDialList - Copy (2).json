@@ -1,0 +1,12 @@
+﻿[
+		{
+			"nombre": "IVR Empresas",
+			"numero": "1021",
+			"tipo": "ciega"
+		},
+		{
+			"nombre": "IVR Masivo",
+			"numero": "1020",
+			"tipo": "ciega"
+		}
+]

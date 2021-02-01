@@ -1,0 +1,162 @@
+<div data-layout="rows(30px, 10px, 30px, 10px, 120px, 10px, 35px, 100%)">
+    <div data-layout="rows(5px, 30px)" class="ui-widget-content ui-corner-all">
+        <div></div>
+        <div data-layout="cols(5px, 50%, 50%)">
+            <div></div>
+            <div data-layout="cols(140px, 100%)">
+                <div class="form-label">Sexo</div>
+                <div>
+                    <select id="edSexo" style="width:80%">
+                        <option value="Seleccione">Seleccione</option>
+                    </select>
+                </div>
+            </div>
+            <div data-layout="cols(140px, 100%)">
+                <div class="form-label">Estado Civil</div>
+                <div>
+                    <select id="edEstadoCivil" style="width:80%">
+                        <option value="Seleccione">Seleccione</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+    <div data-layout="rows(5px, 100%)" class="ui-widget-content ui-corner-all">
+        <div></div>
+        <div data-layout="cols(5px, 100%)">
+            <div></div>
+            <div data-layout="cols(200px, 100%)">
+                <div class="form-label">Acceso Parrilla Unidos</div>
+                <div>
+                    <a id="cmdParrillaUni2" href="http://uni2.movistar.cl/Temporal/Paginas/Protocolos%20de%20venta/Inicio_Parrillas.aspx" target="_blank">Parrilla Uni2</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div></div>
+
+    <div data-layout="rows(100px)">
+        <!--- 2 Columnas -->
+        <div data-layout="cols(30%,2%,49%)">
+            <!--- 3 Columnas -->
+            <div data-layout="rows(20px,30px,30px,30px)" class="ui-widget-content ui-corner-all">
+                <div></div>
+                <!--- 1 Columna dependiente -->
+                <div data-layout="cols(1%,30%,69%)">
+                    <div></div>
+                    <div class="form-label">Plan</div>
+                    <div>
+                        <select id="edCodigoPlan" style="width:95%">
+                            <option value="Seleccione">Seleccione</option>
+                        </select>
+                    </div>
+                </div>
+                <!--- 2 Columna dependiente -->
+                <div data-layout="cols(1%,30%,69%)">
+                    <div></div>
+                    <div class="form-label">Marca</div>
+                    <div>
+                        <select id="edMarca" style="width:95%">
+                            <option value="Seleccione">Seleccione</option>
+                        </select>
+                    </div>
+                </div>
+                <!--- 3 Columna dependiente -->
+                <div data-layout="cols(1%,30%,69%)">
+                    <div></div>
+                    <div class="form-label">Modelo Equipo</div>
+                    <div>
+                        <select id="edModeloEquipo" style="width:95%">
+                            <option value="Seleccione">Seleccione</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            <div></div>
+
+            <!-- Otra informaicon -->
+            <div data-layout="rows(5px,30px,30px,30px,30px)" class="ui-widget-content ui-corner-all">
+
+                <div></div>
+                <!--- otra infomacion -->
+                <div data-layout="cols(1%,24%,24%,24%,24%)">
+                    <div></div>
+                    <div class="form-label">Ciclo Facturación</div>
+                    <div>
+                        <select id="edCicloFacturacion" style="width:90%">
+                            <option value="Seleccione">Seleccione</option>
+                        </select>
+                    </div>
+                    <div class="form-label">Tipo Venta</div>
+                    <div>
+                        <select id="edTipoVenta" style="width:90%">
+                            <option value="Seleccione">Seleccione</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div data-layout="cols(1%,24%,24%,24%,24%)">
+                    <div></div>
+                    <div class="form-label">Empresa u Operador Donante</div>
+                    <div>
+                        <select id="edOperadorDonante" style="width:90%">
+                            <option value="Seleccione">Seleccione</option>
+                        </select>
+                    </div>
+                    <div class="form-label">Fono a Portar</div>
+                    <div><input id="edFonoPortar" type="text" style="width:127px" class="ui-widget input telefono" /></div>
+
+                </div>
+
+                <div data-layout="cols(1%,24%,24%,24%,24%)">
+                    <div></div>
+
+                    <div class="form-label">Modo de Pago</div>
+                    <div>
+                        <select id="edModoPago" style="width:90%">
+                            <option value="Seleccione">Seleccione</option>
+                        </select>
+                    </div>
+                    <div class="form-label">Cuotas</div>
+                    <div>
+                        <select id="edCuotas" style="width:90%">
+                            <option value="Seleccione">Seleccione</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div data-layout="cols(1%,24%,24%,24%,24%)">
+                    <div></div>
+                    <div class="form-label">Contrata Seguro Movistar</div>
+                    <div><input id="edSeguroMovistar" type="checkbox" disabled /></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+            <!--- Fin 3 Columnas -->
+        </div>
+        <!--- Fin 2 Columnas -->
+    </div>
+    <div></div>
+    <div data-layout="rows(100px)">
+        <div data-layout="cols(40%,20%,40%)">
+            <div></div>
+            <div>
+                <a id="cmdAgregarProd" href="#">Agregar &gt;&gt;</a>
+                <a id="cmdQuitarProd" href="#">&lt;&lt; Quitar</a>
+            </div>
+            <div></div>
+        </div>
+    </div>
+    <div data-layout="rows(100px)">
+        <div data-layout="cols(100%, 5px)">
+            <div id="cntListaProdAsig">
+                <table id="listaProdAsig" class="grid"></table>
+            </div>
+            <div></div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,276 @@
+DEBUG 02:14:30,755 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 02:14:31,974 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 02:14:31,989 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 02:14:32,442 CampanasLogger                      call                      - Error Interno ID[3195073036][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 02:14:32,442 CampanasLogger                      call                      - Error Interno ID[3195073036][GetRegionesComunas] jArg: {}
+ERROR 02:14:32,442 CampanasLogger                      call                      - Error Interno ID[3195073036][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 02:14:32,474 CampanasLogger                      call                      - Error Interno ID[1676685171][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 02:14:32,474 CampanasLogger                      call                      - Error Interno ID[1676685171][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 02:14:32,474 CampanasLogger                      call                      - Error Interno ID[1676685171][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 18:46:55,782 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 18:46:56,204 CampanasLogger                      call                      - Error Interno ID[5304841437][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 18:46:56,204 CampanasLogger                      call                      - Error Interno ID[5304841437][GetRegionesComunas] jArg: {}
+ERROR 18:46:56,204 CampanasLogger                      call                      - Error Interno ID[5304841437][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 18:46:56,872 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 18:46:56,872 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 18:46:56,958 CampanasLogger                      call                      - Error Interno ID[5097636466][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 18:46:56,958 CampanasLogger                      call                      - Error Interno ID[5097636466][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 18:46:56,958 CampanasLogger                      call                      - Error Interno ID[5097636466][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 18:51:50,804 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 18:51:50,835 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 18:51:50,835 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 18:51:51,038 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 18:51:51,054 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 18:51:56,671 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 18:51:56,686 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 18:51:57,593 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:12:02,078 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 19:12:02,234 CampanasLogger                      call                      - Error Interno ID[0308479135][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 19:12:02,234 CampanasLogger                      call                      - Error Interno ID[0308479135][GetRegionesComunas] jArg: {}
+ERROR 19:12:02,234 CampanasLogger                      call                      - Error Interno ID[0308479135][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 19:12:03,808 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:12:03,808 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 19:12:03,824 CampanasLogger                      call                      - Error Interno ID[5519607922][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 19:12:03,824 CampanasLogger                      call                      - Error Interno ID[5519607922][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 19:12:03,824 CampanasLogger                      call                      - Error Interno ID[5519607922][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 19:14:11,261 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 19:14:11,277 CampanasLogger                      call                      - Error Interno ID[2546267139][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 19:14:11,277 CampanasLogger                      call                      - Error Interno ID[2546267139][GetRegionesComunas] jArg: {}
+ERROR 19:14:11,277 CampanasLogger                      call                      - Error Interno ID[2546267139][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 19:14:13,445 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:16:52,213 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 19:16:52,229 CampanasLogger                      call                      - Error Interno ID[0134339313][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 19:16:52,229 CampanasLogger                      call                      - Error Interno ID[0134339313][GetRegionesComunas] jArg: {}
+ERROR 19:16:52,229 CampanasLogger                      call                      - Error Interno ID[0134339313][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 19:16:54,326 CampanasLogger                      GetWrapUpCodes            - Init
+ERROR 19:16:54,373 CampanasLogger                      GetSpeedDialList          - No es posible recuperar archivo SpeedialTest. Error
+System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\inetpub\wwwroot\campanasWebV13.0\speedDialList.json'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamReader..ctor(String path)
+   at ServiciosCampanas.Gestion.GetSpeedDialList() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 66
+DEBUG 19:18:36,174 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 19:18:36,190 CampanasLogger                      call                      - Error Interno ID[9883141407][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 19:18:36,190 CampanasLogger                      call                      - Error Interno ID[9883141407][GetRegionesComunas] jArg: {}
+ERROR 19:18:36,190 CampanasLogger                      call                      - Error Interno ID[9883141407][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 19:18:38,335 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:18:38,335 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 19:18:38,350 CampanasLogger                      call                      - Error Interno ID[0133201939][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 19:18:38,350 CampanasLogger                      call                      - Error Interno ID[0133201939][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 19:18:38,350 CampanasLogger                      call                      - Error Interno ID[0133201939][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 19:27:06,534 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 19:27:06,549 CampanasLogger                      call                      - Error Interno ID[6490664314][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 19:27:06,549 CampanasLogger                      call                      - Error Interno ID[6490664314][GetRegionesComunas] jArg: {}
+ERROR 19:27:06,549 CampanasLogger                      call                      - Error Interno ID[6490664314][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 19:27:08,612 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:27:08,612 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 19:27:54,077 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 19:27:54,202 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 19:27:55,655 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:27:55,655 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 19:31:10,866 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 19:31:10,881 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 19:31:13,022 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:31:17,627 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 19:31:17,627 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 19:31:19,721 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:32:17,198 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 19:32:17,198 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 19:32:19,292 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 19:32:19,292 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 19:40:06,765 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 19:40:06,765 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 19:40:08,906 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 20:27:26,802 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 20:27:26,802 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 20:27:28,927 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 20:27:28,927 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 20:27:28,943 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 20:28:16,910 CampanasLogger                      GetRegionesComunas        - Init
+ERROR 20:28:17,082 CampanasLogger                      call                      - Error Interno ID[6401067950][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 20:28:17,082 CampanasLogger                      call                      - Error Interno ID[6401067950][GetRegionesComunas] jArg: {}
+ERROR 20:28:17,082 CampanasLogger                      call                      - Error Interno ID[6401067950][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+DEBUG 20:28:18,500 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 20:28:18,500 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 20:28:18,500 CampanasLogger                      call                      - Error Interno ID[7910670817][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 20:28:18,500 CampanasLogger                      call                      - Error Interno ID[7910670817][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 20:28:18,500 CampanasLogger                      call                      - Error Interno ID[7910670817][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 20:28:39,219 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 20:28:39,235 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 20:28:39,251 CampanasLogger                      call                      - Error Interno ID[5202251978][GetRegionesComunas] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 20:28:39,251 CampanasLogger                      call                      - Error Interno ID[5202251978][GetRegionesComunas] jArg: {}
+ERROR 20:28:39,251 CampanasLogger                      call                      - Error Interno ID[5202251978][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_REGION_COMUNAS' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 1005
+   at ServiciosCampanas.Gestion.GetRegionesComunas() in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 759
+ERROR 20:28:39,266 CampanasLogger                      call                      - Error Interno ID[5761743122][GetWrapUpCodes] Message: ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored
+ERROR 20:28:39,266 CampanasLogger                      call                      - Error Interno ID[5761743122][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 20:28:39,266 CampanasLogger                      call                      - Error Interno ID[5761743122][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-06550: línea 1, columna 7:
+PLS-00201: el identificador 'PKGTBL_WS_WEB_V13_0.TBL_PRO_GET_WRAPUPCODES' se debe declarar
+ORA-06550: línea 1, columna 7:
+PL/SQL: Statement ignored    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\GestionDAO.cs:line 864
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param) in C:\Users\Leonel.Contreras\Downloads\Web-v13.0-ConfirmacionVenta\Web-v13.0-ConfirmacionVenta\ServiciosCampanas\Gestion.cs:line 636
+DEBUG 20:29:03,166 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 20:29:03,306 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 22:59:25,702 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 22:59:25,702 CampanasLogger                      GetRegionesComunas        - Finish

@@ -1,0 +1,31 @@
+DEBUG 09:27:46,109 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 09:27:46,593 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 09:27:55,171 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 09:27:55,171 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 09:27:55,453 CampanasLogger                      getObservacion            - [0341436688] - Begin GetInfoObservacion ID: 15021
+DEBUG 09:27:55,562 CampanasLogger                      getObservacion            - [0341436688] - Finish GetInfoObservacion ID: 15021
+DEBUG 10:33:16,467 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 10:33:16,795 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 10:33:16,811 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 10:33:24,983 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 10:33:24,983 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 10:35:05,345 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 10:35:05,347 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 10:35:05,351 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 10:35:05,356 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 11:09:20,925 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:09:20,925 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 11:09:20,937 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 11:09:35,129 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 11:09:35,165 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:09:35,166 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 11:09:35,173 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 11:13:42,293 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 11:13:42,301 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 11:13:42,326 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:13:42,339 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 11:15:06,492 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:15:06,492 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 11:15:06,505 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 11:17:55,294 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 11:17:55,300 CampanasLogger                      GetRegionesComunas        - Finish

@@ -1,0 +1,60 @@
+DEBUG 11:03:22,609 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:03:23,030 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 11:03:25,593 CampanasLogger                      call                      - Error Interno ID[8609268871][GetWrapUpCodes] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 11:03:25,593 CampanasLogger                      call                      - Error Interno ID[5021020913][GetRegionesComunas] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 11:03:25,593 CampanasLogger                      call                      - Error Interno ID[5021020913][GetRegionesComunas] jArg: {}
+ERROR 11:03:25,593 CampanasLogger                      call                      - Error Interno ID[8609268871][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 11:03:25,593 CampanasLogger                      call                      - Error Interno ID[5021020913][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+ERROR 11:03:25,593 CampanasLogger                      call                      - Error Interno ID[8609268871][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+DEBUG 11:06:59,684 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:06:59,715 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 11:06:59,794 CampanasLogger                      call                      - Error Interno ID[5265209308][GetRegionesComunas] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 11:06:59,794 CampanasLogger                      call                      - Error Interno ID[5265209308][GetRegionesComunas] jArg: {}
+ERROR 11:06:59,794 CampanasLogger                      call                      - Error Interno ID[5265209308][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()
+ERROR 11:06:59,840 CampanasLogger                      call                      - Error Interno ID[3034383154][GetWrapUpCodes] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 11:06:59,840 CampanasLogger                      call                      - Error Interno ID[3034383154][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 11:06:59,840 CampanasLogger                      call                      - Error Interno ID[3034383154][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+DEBUG 11:27:21,064 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 11:27:21,064 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+ERROR 11:27:21,127 CampanasLogger                      call                      - Error Interno ID[7109078674][GetWrapUpCodes] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 11:27:21,127 CampanasLogger                      call                      - Error Interno ID[7109078674][GetWrapUpCodes] jArg: {"param":{"familia":"WE|WI|WO"}}
+ERROR 11:27:21,127 CampanasLogger                      call                      - Error Interno ID[7109078674][GetWrapUpCodes] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetWrapUpCodes(String familia)
+   at ServiciosCampanas.Gestion.GetWrapUpCodes(JsonObject param)
+ERROR 11:27:21,158 CampanasLogger                      call                      - Error Interno ID[4880845885][GetRegionesComunas] Message: ORA-1033: inicialización o cierre de ORACLE en curso
+ERROR 11:27:21,158 CampanasLogger                      call                      - Error Interno ID[4880845885][GetRegionesComunas] jArg: {}
+ERROR 11:27:21,158 CampanasLogger                      call                      - Error Interno ID[4880845885][GetRegionesComunas] StackTrace
+Oracle.DataAccess.Client.OracleException ORA-1033: inicialización o cierre de ORACLE en curso    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, Object src)
+   at Oracle.DataAccess.Client.OracleConnection.Open()
+   at ServiciosCampanas.ConexionDAO.getConnection()
+   at ServiciosCampanas.GestionDAO.GetRegionComunas()
+   at ServiciosCampanas.Gestion.GetRegionesComunas()

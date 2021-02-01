@@ -1,0 +1,20 @@
+<system.serviceModel>
+    <bindings>
+      <basicHttpBinding>
+        <binding name="AgendaSoap" sendTimeout="00:06:00" />
+      </basicHttpBinding>
+    </bindings>
+    <client>
+      <endpoint address="http://10.182.5.158/Ws_Agenda_CmpUnicaV4.1/Ws_Agenda.asmx"
+          binding="basicHttpBinding" bindingConfiguration="AgendaSoap"
+          contract="WS_AGENDA.AgendaSoap" name="AgendaSoap" />
+    </client>
+  </system.serviceModel>
+  <connectionStrings>
+       <!-- <add name="campanasConnection" connectionString="Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP) (HOST=sva-db-scan)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=svainin))); User Id=negocio;Password=Six.1200;Enlist=false;Pooling=true;Min Pool Size=10;Max Pool Size=100"/>
+  </connectionStrings>-->
+  
+    <add name="campanasConnection" connectionString="Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP) (HOST=sva-st-scan.tchile.local)(PORT=1521)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=psmtinin.tchile.local))); User Id=negocio;Password=Six.1200;Enlist=false;Pooling=true;Min Pool Size=10;Max Pool Size=100"/>
+  </connectionStrings>
+  
+</configuration>

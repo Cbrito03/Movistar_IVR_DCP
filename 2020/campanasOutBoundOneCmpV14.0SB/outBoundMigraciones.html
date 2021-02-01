@@ -1,0 +1,282 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<meta http-equiv="x-ua-compatible" content="IE=EmulateIE8">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>OutBound Migraciones</title>
+    <link rel="stylesheet" type="text/css" href="css/tema-movistar/jquery-ui-1.9.2.custom.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/ui.jqgrid.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/msgBoxLight.css" />
+    <!--<script type="text/javascript" src="js/jquery-1.8.3.js"></script>-->
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.9.2.custom.min.js"></script>
+    <script type="text/javascript" src="js/jquery.json-2.3.js"></script>
+    <script type="text/javascript" src="js/grid.locale-es.js"></script>
+    <script type="text/javascript" src="js/jquery.jqGrid.min.js"></script>
+    <script type="text/javascript" src="js/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="js/utils-1.2.0.js"></script>
+    <script type="text/javascript" src="js/layout-utils.js"></script>
+    <script type="text/javascript" src="js/z-layout.js"></script>
+    <script type="text/javascript" src="js/z-divider.js"></script>
+    <script type="text/javascript" src="js/z-dialogs.js"></script>
+    <!-- <script type="text/javascript" src="js/z-loader.js"></script> -->
+    <script type="text/javascript" src="js/z-pager.js"></script>
+    <script type="text/javascript" src="js/z-services.js"></script>
+    <script type="text/javascript" src="js/cic-1.2.0.js"></script>
+    <script type="text/javascript" src="js/rutValidate.js"></script>
+    <script type="text/javascript" src="js/jquery.inputmask.js"></script>
+    <script type="text/javascript" src="js/jquery.msgBox-1.1.0.js"></script>
+
+    <!-- Atributos CIC -->
+    <meta name="IS_Attr_CallID">
+    <meta name="IS_Attr_CampaignName">
+    <meta name="IS_System_AgentID">
+    <meta name="IS_System_AgentName">
+    <meta name="IS_System_ClientStatus">
+
+    <meta name="IS_Attr_CampaignID">
+    <meta name="IS_Attr_I3_IDENTITY">
+
+    <!-- Atributos Campaña -->
+    <meta name="IS_Attr_ACC_LINEA_ID">
+    <meta name="IS_Attr_Rut">
+    <meta name="IS_Attr_CALL_FEC_GEST_INI">
+    <meta name="IS_Attr_CALL_FEC_GEST_FIN">
+    <meta name="IS_Attr_Phonenumber">
+    <meta name="IS_Attr_Numbertodial">
+    <meta name="IS_Attr_CALL_REG_ID">
+    <meta name="IS_Attr_CALL_PAIS_ID">
+    <meta name="IS_Attr_CALL_CALLCENTER_ID">
+    <meta name="IS_Attr_CALL_CANAL_ID">
+    <meta name="IS_Attr_CALL_FAMILIA_ID">
+    <meta name="IS_Attr_CALL_BATCH_ID">
+    <meta name="IS_Attr_CALL_SISTEMA_ID">
+    <meta name="IS_Attr_CALL_ARCHIVO">
+    <meta name="IS_Attr_ACC_ID">
+    <meta name="IS_Attr_ACC_CAMPANA_ID">
+    <meta name="IS_Attr_ACC_HORARIO">
+    <meta name="IS_Attr_ACC_SCORE">
+    <meta name="IS_Attr_CLI_ID">
+    <meta name="IS_Attr_VENTA_PROD_COD">
+    <meta name="IS_Attr_VENTA_SISTEMA_ID">
+    <meta name="IS_Attr_VENTA_OOSS_COD">
+    <meta name="IS_Attr_CUARTIL">
+    <meta name="IS_Attr_sxb_generico1">
+    <meta name="IS_Attr_sxb_generico2">
+    <meta name="IS_Attr_DIR_CIUDAD">
+    <meta name="IS_Attr_ZONE">
+    <meta name="IS_Attr_ATTEMPTS">
+    <meta name="IS_Attr_Status">
+    <meta name="IS_Attr_I3_SITEID">
+    <meta name="IS_Attr_I3_ACTIVECAMPAIGNID">
+    <meta name="IS_Attr_I3_ATTEMPTSREMOTEHANGUP">
+    <meta name="IS_Attr_I3_ATTEMPTSSYSTEMHANGUP">
+    <meta name="IS_Attr_I3_ATTEMPTSABANDONED">
+    <meta name="IS_Attr_I3_ATTEMPTSBUSY">
+    <meta name="IS_Attr_I3_ATTEMPTSFAX">
+    <meta name="IS_Attr_I3_ATTEMPTSNOANSWER">
+    <meta name="IS_Attr_I3_ATTEMPTSMACHINE">
+    <meta name="IS_Attr_I3_ATTEMPTSRESCHEDULED">
+    <meta name="IS_Attr_I3_ATTEMPTSSITCALLABLE">
+    <meta name="IS_Attr_I3_ATTEMPTSDAILY">
+    <meta name="IS_Attr_I3_LASTCALLED_UTC">
+    <meta name="IS_Attr_SUCCESSRESULT">
+    <meta name="IS_Attr_I3_UPLOAD_ID">
+    <meta name="IS_Attr_I3_ROWID">
+    <meta name="IS_Attr_DNC_REG_ID">
+    <meta name="IS_Attr_PHONE_NUMBER">
+    <meta name="IS_Attr_TO_EXCLUDE">
+    <meta name="IS_Attr_EXPIRATION">
+
+    <meta name="IS_Attr_CLI_NOMBRE">
+    <meta name="IS_Attr_CLI_RUT_CON_DV">
+    <meta name="IS_Attr_CLI_CONTAC_ALTER">
+    <meta name="IS_Attr_CLI_CONTAC_ALTER_FIJO">
+    <meta name="IS_Attr_CLI_CONTAC_ALTER_MOVIL">
+    <meta name="IS_Attr_DIR_CALLE">
+    <meta name="IS_Attr_DIR_NRO">
+    <meta name="IS_Attr_DIR_PISO">
+    <meta name="IS_Attr_DIR_DEPTO">
+    <meta name="IS_Attr_DIR_COMUNA">
+    <meta name="IS_Attr_DIR_REGION">
+    <meta name="IS_Attr_CLI_LINEA_ANTIGUEDAD">
+    <meta name="IS_Attr_CLI_ANTIGUEDAD">
+    <meta name="IS_Attr_CLI_CICLO_COD">
+    <meta name="IS_Attr_PROD_VIG_DESC">
+    <meta name="IS_Attr_PROD_VIG_PRECIO">
+    <meta name="IS_Attr_CLI_ULT_BOLETA_MONTO">
+    <meta name="IS_Attr_CLI_SEGMENTO">
+    <meta name="IS_Attr_CLI_GSE">
+    <meta name="IS_Attr_CLI_IND_PORTADO">
+    <meta name="IS_Attr_PROD_VIG_FIN_PROMO">
+    <meta name="IS_Attr_OFER_P1_COD">
+    <meta name="IS_Attr_OFER_P1_DESC">
+    <meta name="IS_Attr_OFER_P1_PRECIO">
+    <meta name="IS_Attr_OFER_P1_DELTA">
+    <meta name="IS_Attr_OFER_P2_COD">
+    <meta name="IS_Attr_OFER_P2_DESC">
+    <meta name="IS_Attr_OFER_P2_PRECIO">
+    <meta name="IS_Attr_OFER_P2_DELTA">
+    <meta name="IS_Attr_OFER_P3_COD">
+    <meta name="IS_Attr_OFER_P3_DESC">
+    <meta name="IS_Attr_OFER_P3_PRECIO">
+    <meta name="IS_Attr_OFER_P3_DELTA">
+    <meta name="IS_Attr_OFER_P4_COD">
+    <meta name="IS_Attr_OFER_P4_DESC">
+    <meta name="IS_Attr_OFER_P4_PRECIO">
+    <meta name="IS_Attr_OFER_P4_DELTA">
+    <meta name="IS_Attr_OFER_P5_COD">
+    <meta name="IS_Attr_OFER_P5_DESC">
+    <meta name="IS_Attr_OFER_P5_PRECIO">
+    <meta name="IS_Attr_OFER_P5_DELTA">
+    <meta name="IS_Attr_ACC_ARG1_ID">
+    <meta name="IS_Attr_ACC_ARG2_ID">
+    <meta name="IS_Attr_ACC_ARG3_ID">
+    <meta name="IS_Attr_GENERICO_01">
+    <meta name="IS_Attr_GENERICO_02">
+    <meta name="IS_Attr_GENERICO_03">
+    <meta name="IS_Attr_GENERICO_04">
+    <meta name="IS_Attr_GENERICO_05">
+    <meta name="IS_Attr_GENERICO_06">
+    <meta name="IS_Attr_GENERICO_07">
+    <meta name="IS_Attr_GENERICO_08">
+    <meta name="IS_Attr_GENERICO_09">
+    <meta name="IS_Attr_GENERICO_10">
+    <meta name="IS_Attr_GENERICO_11">
+    <meta name="IS_Attr_GENERICO_12">
+    <meta name="IS_Attr_GENERICO_13">
+    <meta name="IS_Attr_GENERICO_14">
+    <meta name="IS_Attr_GENERICO_15">
+    <meta name="IS_Attr_GENERICO_16">
+    <meta name="IS_Attr_GENERICO_17">
+    <meta name="IS_Attr_GENERICO_18">
+    <meta name="IS_Attr_GENERICO_19">
+    <meta name="IS_Attr_ACC_PREG_1">
+    <meta name="IS_Attr_ACC_PREG_2">
+    <meta name="IS_Attr_SXB_OBSERVACIONES">
+    <meta name="IS_Attr_SXB_CONVERGENCIA">
+	<meta name="IS_Attr_SXB_REFERIDO">
+
+
+    <!-- Aciones CIC -->
+    <meta name="IS_Action_Pickup">
+    <meta name="IS_Action_SetForeground">
+    <meta name="IS_Action_SelectPage">
+    <meta name="IS_Action_ClientStatus">
+    <meta name="IS_Action_RequestBreak">
+    <meta name="IS_Action_Trace">
+    <meta name="IS_Action_Mute">
+    <meta name="IS_Action_CallComplete">
+    <meta name="IS_Action_Disconnect">
+    <meta name="IS_Action_Transfer">
+    <meta name="IS_Action_Hold">
+    <meta name="IS_Action_EndBreak">
+    <meta name="IS_Action_RequestLogoff">
+    <meta name="IS_Action_MarkCallForFinishing">
+    <meta name="IS_Action_WriteData">
+    <meta name="IS_Action_Stage">
+	<meta name="IS_Action_PlacePreviewCall">
+
+    <script>
+        var campana = {
+            estado: "initializing" // waiting, call, break, preview, initializing
+        };
+
+        var app = {
+            totalServicesCallToInitialize: 8, /* Llamada a Servicios:
+                                                        Botonera: WrapUpCodes
+                                                        Oferta: GetDetPreventa
+                                                        GestionVenta: getPlanes (Migra)
+                                                        Main: CheckActiveConvergencia
+                                                        Cliente: GetRegionComunas
+                                                        Botonera: SpeedDial 
+                                                        Botonera: MaxDiasAgenda
+                                                        Botonera: IVRConfirmacionVenta
+                                              */
+            totalServicesLoaded: 0,
+            callBackFinishLoad: null,
+            hasLastCallExecuteManual: false
+        }
+
+        //$(document).ready(function () {
+        $(window).bind("load", function (event) {
+
+            $.blockUI({
+                message: "... Loading Campaign ...",
+                css: {
+                    border: 'none',
+                    padding: '15px',
+                    backgroundColor: '#000',
+                    '-webkit-border-radius': '10px',
+                    '-moz-border-radius': '10px',
+                    color: '#fff',
+                    width: '100%',
+                    height: '100%',
+                    position: 'absolute',
+                    left: 0,
+                    top: 0
+                }
+            });
+
+            var cookingName = cicGetSystemAgentId() + "_" + "CampaingsLoaded";
+            eraseCookie(cookingName);
+
+            cicTrace("Estado Agente: " + cicGetSystemClientStatus());
+
+            //funcion que bloquea todos lo dias expecto los que queremos habilitar para la seleccion
+            function noExcursion(date) {
+                var day = date.getDay();
+                // aqui indicamos el numero correspondiente a los dias que ha de bloquearse (el 0 es Domingo, 1 Lunes, etc...) en el ejemplo bloqueo todos menos los lunes y jueves.
+                return [(day != 0), ''];
+            };
+            
+            $.datepicker.setDefaults({
+                dateFormat: "dd/mm/yy",
+                monthNames: ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"],
+                monthNamesShort: ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"],
+                dayNames: ["Domingo", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"],
+                dayNamesMin: ["DO", "LU", "MA", "MI", "JU", "VI", "SA"],
+                dayNamesShort: ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"],
+                showOn: "button",
+                buttonImage: "img/icons/calendar.png",
+                buttonImageOnly: true,
+                buttonText: "Select Date",
+                showAnim: 'slideDown',
+                changeMonth: true,
+                changeYear: true,
+                nextText: 'Siguiente',
+                prevText: 'Previo',
+                firstDay: 0,
+                beforeShowDay: noExcursion
+
+            });
+
+            $(".main").zLayout({ layoutWithWindow: true });
+
+        });
+
+        $(document).unbind('keydown').bind('keydown', function (event) {
+            var doPrevent = false;
+            if (event.keyCode === 8 || event.keyCode === 46) {
+                var d = event.srcElement || event.target;
+                if ((d.tagName.toUpperCase() === 'INPUT' && (d.type.toUpperCase() === 'TEXT' || d.type.toUpperCase() === 'PASSWORD' || d.type.toUpperCase() === 'FILE')) || d.tagName.toUpperCase() === 'TEXTAREA') {
+                    doPrevent = d.readOnly || d.disabled;
+                }
+                else {
+                    doPrevent = true;
+                }
+            }
+
+            if (doPrevent) {
+                event.preventDefault();
+            }
+        });
+    </script>
+</head>
+<body>
+    <div class="main" data-layout="rows(100%)">
+        <div id="al-main" data-layout-margins="2,2,4,2" data-layout-autoload="campanas/outBoundMigraciones/main"></div>
+    </div>
+</body>
+</html>

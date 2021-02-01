@@ -1,0 +1,59 @@
+DEBUG 17:24:29,610 CampanasLogger                      GetWrapUpCodes            - Init
+DEBUG 17:24:29,610 CampanasLogger                      GetRegionesComunas        - Init
+DEBUG 17:24:29,829 CampanasLogger                      GetWrapUpCodes            - Parametros: {"familia":"WE|WI|WO"}
+DEBUG 17:24:30,766 CampanasLogger                      GetRegionesComunas        - Finish
+DEBUG 17:24:30,891 CampanasLogger                      GetWrapUpCodes            - Finish
+DEBUG 17:27:02,983 CampanasLogger                      addRegisterToContact      - [9109522879] - Init AddRegisterToContact
+DEBUG 17:27:02,998 CampanasLogger                      addRegisterToContact      - [9109522879] - Parametros: {"table":"TBL_CO_DI_WE_FIJ","callRegId":"-1","callPaisId":"CO","callCallcenterId":"DI","callCanalId":"WE","callFamiliaId":"801Fij","callFecGestIni":"","callFecGestFin":"","callBatchId":"","callSistemaId":"ININ","callArchivo":"Inbound Binding","accId":"","accLineaId":"992626207","accCampanaId":"","accHorario":"","accArg1Id":"","accArg2Id":"","accArg3Id":"","accPreg1":"","accResp1":"","accPreg2":"","accResp2":"","accScore":"","cliId":"","cliRutConDv":"","cliNombre":"","cliSegmento":"","cliGse":"","cliAntiguedad":"","cliLineaAntiguedad":"","cliCicloCod":"","cliIndPortado":"","cliUltBoletaMonto":"","cliContacAlter":"","cliContacAlterFijo":"","cliContacAlterMovil":"","prodVigDesc":"","prodVigPrecio":"","prodVigFinPromo":"","dirCalle":"","dirNro":"","dirPiso":"","dirDepto":"","dirComuna":"","dirCiudad":"","dirRegion":"","oferP1Cod":"","oferP1Desc":"","oferP1Precio":"","oferP1Delta":"","oferP2Cod":"","oferP2Desc":"","oferP2Precio":"","oferP2Delta":"","oferP3Cod":"","oferP3Desc":"","oferP3Precio":"","oferP3Delta":"","oferP4Cod":"","oferP4Desc":"","oferP4Precio":"","oferP4Delta":"","oferP5Cod":"","oferP5Desc":"","oferP5Precio":"","oferP5Delta":"","ventaProdCod":"","ventaSistemaId":"","ventaOossCod":"","generico01":"","generico02":"","generico03":"","generico04":"","generico05":"","generico06":"","generico07":"","generico08":"","generico09":"","generico10":"","generico11":"","generico12":"","generico13":"","generico14":"","generico15":"msuarez","generico16":"","generico17":"800760","generico18":"","generico19":"","cuartil":"REFERIDO","sxbObservaciones":"","sxbConvergencia":"","sxbGenerico1":"TBL_CO_DI_WE_FIJ","sxbGenerico2":"","sxbGenerico3":"","sxbReferido":"","campaignName":"CMP_CO_DI_WE_FIJ","agent":"msuarez"}
+DEBUG 17:27:02,998 CampanasLogger                      addRegisterToContact      - [9109522879] - Save Registro In Contact
+ERROR 17:27:03,233 CampanasLogger                      addRegisterToContact      - [9109522879]Error Insertar Registro en Contact Error: ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1281
+ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1133
+ORA-06512: en línea 1
+Oracle.DataAccess.Client.OracleException ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1281
+ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1133
+ORA-06512: en línea 1    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.SaveRegContact(JsonObject infoRegistro, String tipoRegistro)
+   at ServiciosCampanas.Gestion.addRegisterToContact(JsonObject param)
+DEBUG 17:27:03,264 CampanasLogger                      addRegisterToContact      - [9109522879] - Finish AddRegisterToContact
+DEBUG 17:27:43,045 CampanasLogger                      addRegisterToContact      - [4504282701] - Init AddRegisterToContact
+DEBUG 17:27:43,060 CampanasLogger                      addRegisterToContact      - [4504282701] - Parametros: {"table":"TBL_CO_DI_WE_FIJ","callRegId":"-1","callPaisId":"CO","callCallcenterId":"DI","callCanalId":"WE","callFamiliaId":"801Fij","callFecGestIni":"","callFecGestFin":"","callBatchId":"","callSistemaId":"ININ","callArchivo":"Llamada Manual","accId":"","accLineaId":"992626207","accCampanaId":"","accHorario":"","accArg1Id":"","accArg2Id":"","accArg3Id":"","accPreg1":"","accResp1":"","accPreg2":"","accResp2":"","accScore":"","cliId":"","cliRutConDv":"111111111","cliNombre":"test timeout v13","cliSegmento":"","cliGse":"","cliAntiguedad":"","cliLineaAntiguedad":"","cliCicloCod":"","cliIndPortado":"","cliUltBoletaMonto":"","cliContacAlter":"","cliContacAlterFijo":"","cliContacAlterMovil":"","prodVigDesc":"","prodVigPrecio":"","prodVigFinPromo":"","dirCalle":"","dirNro":"","dirPiso":"","dirDepto":"","dirComuna":"","dirCiudad":"","dirRegion":"","oferP1Cod":"","oferP1Desc":"","oferP1Precio":"","oferP1Delta":"","oferP2Cod":"","oferP2Desc":"","oferP2Precio":"","oferP2Delta":"","oferP3Cod":"","oferP3Desc":"","oferP3Precio":"","oferP3Delta":"","oferP4Cod":"","oferP4Desc":"","oferP4Precio":"","oferP4Delta":"","oferP5Cod":"","oferP5Desc":"","oferP5Precio":"","oferP5Delta":"","ventaProdCod":"","ventaSistemaId":"","ventaOossCod":"","generico01":"","generico02":"","generico03":"","generico04":"","generico05":"","generico06":"","generico07":"","generico08":"","generico09":"","generico10":"","generico11":"","generico12":"","generico13":"","generico14":"","generico15":"msuarez","generico16":"","generico17":"800760","generico18":"","generico19":"","cuartil":"REFERIDO","sxbObservaciones":"","sxbConvergencia":"","sxbGenerico1":"TBL_CO_DI_WE_FIJ","sxbGenerico2":"","sxbGenerico3":"","sxbReferido":"","campaignName":"CMP_CO_DI_WE_FIJ","agent":"msuarez"}
+DEBUG 17:27:43,060 CampanasLogger                      addRegisterToContact      - [4504282701] - Save Registro In Contact
+ERROR 17:27:43,076 CampanasLogger                      addRegisterToContact      - [4504282701]Error Insertar Registro en Contact Error: ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1281
+ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1133
+ORA-06512: en línea 1
+Oracle.DataAccess.Client.OracleException ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1281
+ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1133
+ORA-06512: en línea 1    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.SaveRegContact(JsonObject infoRegistro, String tipoRegistro)
+   at ServiciosCampanas.Gestion.addRegisterToContact(JsonObject param)
+DEBUG 17:27:43,076 CampanasLogger                      addRegisterToContact      - [4504282701] - Finish AddRegisterToContact
+DEBUG 17:27:50,888 CampanasLogger                      addRegisterToContact      - [1876572182] - Init AddRegisterToContact
+DEBUG 17:27:50,888 CampanasLogger                      addRegisterToContact      - [1876572182] - Parametros: {"table":"TBL_CO_DI_WE_FIJ","callRegId":"-1","callPaisId":"CO","callCallcenterId":"DI","callCanalId":"WE","callFamiliaId":"801Fij","callFecGestIni":"","callFecGestFin":"","callBatchId":"","callSistemaId":"ININ","callArchivo":"Llamada Manual","accId":"","accLineaId":"992626207","accCampanaId":"","accHorario":"","accArg1Id":"","accArg2Id":"","accArg3Id":"","accPreg1":"","accResp1":"","accPreg2":"","accResp2":"","accScore":"","cliId":"","cliRutConDv":"111111111","cliNombre":"test timeout v13","cliSegmento":"","cliGse":"","cliAntiguedad":"","cliLineaAntiguedad":"","cliCicloCod":"","cliIndPortado":"","cliUltBoletaMonto":"","cliContacAlter":"","cliContacAlterFijo":"","cliContacAlterMovil":"","prodVigDesc":"","prodVigPrecio":"","prodVigFinPromo":"","dirCalle":"","dirNro":"","dirPiso":"","dirDepto":"","dirComuna":"","dirCiudad":"","dirRegion":"","oferP1Cod":"","oferP1Desc":"","oferP1Precio":"","oferP1Delta":"","oferP2Cod":"","oferP2Desc":"","oferP2Precio":"","oferP2Delta":"","oferP3Cod":"","oferP3Desc":"","oferP3Precio":"","oferP3Delta":"","oferP4Cod":"","oferP4Desc":"","oferP4Precio":"","oferP4Delta":"","oferP5Cod":"","oferP5Desc":"","oferP5Precio":"","oferP5Delta":"","ventaProdCod":"","ventaSistemaId":"","ventaOossCod":"","generico01":"","generico02":"","generico03":"","generico04":"","generico05":"","generico06":"","generico07":"","generico08":"","generico09":"","generico10":"","generico11":"","generico12":"","generico13":"","generico14":"","generico15":"msuarez","generico16":"","generico17":"800760","generico18":"","generico19":"","cuartil":"REFERIDO","sxbObservaciones":"","sxbConvergencia":"","sxbGenerico1":"TBL_CO_DI_WE_FIJ","sxbGenerico2":"","sxbGenerico3":"","sxbReferido":"","campaignName":"CMP_CO_DI_WE_FIJ","agent":"msuarez"}
+DEBUG 17:27:50,888 CampanasLogger                      addRegisterToContact      - [1876572182] - Save Registro In Contact
+ERROR 17:27:50,904 CampanasLogger                      addRegisterToContact      - [1876572182]Error Insertar Registro en Contact Error: ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1281
+ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1133
+ORA-06512: en línea 1
+Oracle.DataAccess.Client.OracleException ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1281
+ORA-16000: base de datos o base de datos de conexión abierta para acceso de sólo lectura
+ORA-06512: en "DEVELOP.PKGTBL_WS_WEB_V13_0", línea 1133
+ORA-06512: en línea 1    at Oracle.DataAccess.Client.OracleException.HandleErrorHelper(Int32 errCode, OracleConnection conn, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, String procedure, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleException.HandleError(Int32 errCode, OracleConnection conn, String procedure, IntPtr opsErrCtx, OpoSqlValCtx* pOpoSqlValCtx, Object src, Boolean bCheck)
+   at Oracle.DataAccess.Client.OracleCommand.ExecuteNonQuery()
+   at ServiciosCampanas.GestionDAO.SaveRegContact(JsonObject infoRegistro, String tipoRegistro)
+   at ServiciosCampanas.Gestion.addRegisterToContact(JsonObject param)
+DEBUG 17:27:50,904 CampanasLogger                      addRegisterToContact      - [1876572182] - Finish AddRegisterToContact

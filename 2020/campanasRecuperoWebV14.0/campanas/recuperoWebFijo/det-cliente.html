@@ -1,0 +1,154 @@
+<div data-layout="rows(100%, 130px)">
+    <div id="tabsCliente" data-layout-margins="0,0,5,10">
+        <ul>
+            <li><a href="#tabBasico">Datos Básicos del Cliente</a></li>
+        </ul>
+        <div id="tabBasico">
+            <div id="detBasico" data-layout="rows(100%)">
+                <div data-scroller-min-height="270" data-scroller-min-width="900">
+                    <div data-layout="rows(30px, 100%)">
+                        <div class="titulo-seccion" data-layout-margin="5">Datos Básicos del Cliente</div>
+                        <div data-layout="rows(26px, 26px, 26px, 26px, 26px, 40px, 26px, 26px, 26px, 100%)" data-layout-margins="0,0,5,5">
+                            <div data-layout="cols(120px, 100%)">
+                                <div class="form-label-bold">Nombre Cliente</div>
+                                <div><input id="edNombreCliente" type="text" style="width:95%" class="ui-widget input" maxlength="100" /></div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100px, 100%)">
+                                    <div class="form-label-bold">RUT</div>
+                                    <div><input id="edRutCliente" type="text" style="width:90px" class="ui-widget input rut" maxlength="9" /></div>
+                                    <div class="form-label" style="font-size:smaller">Sin puntos ni guión</div>
+                                </div>
+                                <div data-layout="cols(140px, 100%)">
+                                    <div class="form-label-bold"># Serie(Documento)</div>
+                                    <div><input id="edSerieRut" type="text" style="width:95%" class="ui-widget input" maxlength="10" /></div>
+                                </div>
+                                <div></div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fecha Nacimiento</div>
+                                    <div data-layout="cols(20px, 10px, 10px, 20px, 10px, 10px, 30px)">
+                                        <div><input id="edDiaNacimiento" type="text" style="width:20px" class="ui-widget input" maxlength="2" value="DD" /></div>
+                                        <div></div>
+                                        <div class="form-label">/</div>
+                                        <div><input id="edMesNacimiento" type="text" style="width:20px" class="ui-widget input" maxlength="2" value="MM" /></div>
+                                        <div></div>
+                                        <div class="form-label">/</div>
+                                        <div><input id="edAnoNacimiento" type="text" style="width:30px" class="ui-widget input nroSerie" maxlength="4" value="AAAA" /></div>
+                                    </div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <a id="cmdCalculaEdad" data-layout-margins="5,0,10,5" style="height:10px">Calcular Edad</a>
+                                    <div><input id="edEdad" type="text" style="width:75px" class="ui-widget input" readonly /></div>
+                                </div>
+                                <div></div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fono Contacto1</div>
+                                    <div><input id="edFonoContacto1" type="text" style="width:95%" class="ui-widget input telefono" maxlength="9" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fono Contacto2</div>
+                                    <div><input id="edFonoContacto2" type="text" style="width:95%" class="ui-widget input telefono" maxlength="9" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Fono Contacto3</div>
+                                    <div><input id="edFonoContacto3" type="text" style="width:95%" class="ui-widget input telefono" maxlength="9" /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(67%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Email</div>
+                                    <div><input id="edEmail" type="text" style="width:95%" class="ui-widget input" maxlength="100" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Enrolamiento</div>
+                                    <div><input id="edNotificar" type="checkbox" /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(100%)" data-layout-margins="5,10,10,0">
+                                <div class="titulo-seccion">Dirección Particular</div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Calle</div>
+                                    <div><input id="edCalle" type="text" style="width:95%" class="ui-widget input" maxlength="40" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Entre calles</div>
+                                    <div><input id="edEntreCalle" type="text" style="width:95%" class="ui-widget input" maxlength="40" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">y</div>
+                                    <div><input id="edYCalle" type="text" style="width:95%" class="ui-widget input" maxlength="40" /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(34%, 33%, 33%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Número</div>
+                                    <div><input id="edNumero" type="text" style="width:95%" class="ui-widget input" maxlength="6" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Piso</div>
+                                    <div><input id="edPiso" type="text" style="width:95%" class="ui-widget input" maxlength="2" /></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Depto</div>
+                                    <div><input id="edDepto" type="text" style="width:95%" class="ui-widget input" maxlength="6" /></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(50%, 50%)">
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Región</div>
+                                    <div><select id="edRegion" class="input-field" style="width: 80%; height: 20px"></select></div>
+                                </div>
+                                <div data-layout="cols(120px, 100%)">
+                                    <div class="form-label-bold">Comuna</div>
+                                    <div><select id="edComuna" class="input-field" style="width: 80%; height: 20px"></select></div>
+                                </div>
+                            </div>
+                            <div data-layout="cols(120px, 150px)">
+                                <div class="form-label-bold">Ticket de Venta</div>
+                                <div><input id="edTicketValida" class="ui-widget input ticketV" type="text" style="width:150px" /></div>
+                            </div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div data-layout="rows(25px, 100px)" class="ui-widget-content ui-corner-all">
+        <div data-layout="rows(25px)" class="ui-widget-header ui-corner-top">
+            <div class="titulo-seccion" data-layout-margin="5">Datos Referido</div>
+        </div>
+        <div data-layout="cols(40%, 40%, 20%)">
+            <div data-layout="rows(26px, 26px, 26px)" data-layout-margins="20,10,0,0">
+                <div data-layout="cols(120px, 100%)">
+                    <div class="form-label-bold">Nombre</div>
+                    <div><input id="edNombreReferido" type="text" style="width:95%" class="ui-widget input" maxlength="100" /></div>
+                </div>
+                <div data-layout="cols(120px, 100%)">
+                    <div class="form-label-bold">Teléfono</div>
+                    <div><input id="edTelefonoReferido" type="text" style="width:95%" class="ui-widget input telefono" maxlength="9" /></div>
+                </div>
+                <div data-layout="cols(100%)">
+                    <div class="form-label">Recuerde que solamente Ud. puede ingresar un registro Referido.</div>
+                </div>
+            </div>
+            <div data-layout="cols(120px, 100%)" data-layout-margins="0,10,0,0">
+                <div class="form-label-bold">Observaciones</div>
+                <div><textarea id="edObsReferido" style="height:90%;width:95%;resize:none" maxlength="200" /></div>
+            </div>
+            <div data-layout="cols(100%, 80px:center, 100%)">
+                <div></div>
+                <a id="cmdEnviarReferido" style="height: 22px">Enviar</a>
+                <div></div>
+            </div>
+        </div>
+    </div>
+</div>
+
